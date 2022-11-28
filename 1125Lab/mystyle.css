@@ -17,6 +17,9 @@ nav ul li {
 	background-color: white;
 	width: 10em;
 	color: black ;
+	background-color: #D7A1F9;
+	margin:0 ;
+	padding: 0;
 }
 nav ul li:hover{
 	background-color: lavender;
