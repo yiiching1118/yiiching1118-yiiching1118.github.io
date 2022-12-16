@@ -1,0 +1,23 @@
+<html>
+<script type="text/javascript">
+	var num1;
+	var num2;
+
+	num1 = parseInt(window.prompt("Enter first input"));
+	num2 = parseInt(window.prompt("Enter second input"));
+	document.writeln(".");
+	if( num1 > num2 ){
+		document.body.style.background = 'lightblue';
+		document.writeln("firstInput > secondInput " );
+	}else if(num2 > num1 ){
+		document.body.style.background = 'lightgreen';
+		document.writeln("secondInput > firstInput");
+	}else if(num1 == num2){
+		document.body.style.background ='lightyellow';
+		document.writeln("firstInput == secondInput");
+	}
+</script>
+<body>
+	<input type="buttton" value="1st button" onclick="alert(num1);">
+	<input type="buttton" value="1st button" onclick="alert(num2);">
+</body>
